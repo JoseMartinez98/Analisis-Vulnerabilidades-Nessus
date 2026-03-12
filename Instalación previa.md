@@ -85,7 +85,7 @@ Cuenta de Usuario: Crea un nombre de usuario y contraseña para acceder al panel
 ## ⏳ Paso 5: Descarga de Plugins
 Tras configurar la cuenta, Nessus comenzará a descargar y compilar los plugins (las "firmas" de las vulnerabilidades).
 
-[!IMPORTANT]
+**IMPORTANTE**
 Este proceso puede tardar entre 20 y 60 minutos dependiendo de tu conexión a internet y la velocidad de tu CPU. No cierres el navegador ni apagues el equipo durante este proceso.
 
 ## 🚦 Comandos de Consola Útiles
