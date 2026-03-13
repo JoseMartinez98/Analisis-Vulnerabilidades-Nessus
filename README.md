@@ -159,3 +159,42 @@ En Nessus, en lugar de flags de consola, dominamos los Tipos de Escaneo:
 Al entrar al panel de control, vemos como hay un botón de new scan, pulsamos ahí y metemos la dirección ip a escanear, en mi caso localhost.
 
 ![Texto alternativo](images/uso1.jpg)
+
+A la izquierda, veremos cómo sale que ya tenemos un escaneo activo.
+
+![Texto alternativo](images/uso2.jpg)
+
+Si pinchamos, se nos despliega un listado de escaneos, en este caso pinchamos en el que proceda.
+
+![Texto alternativo](images/uso3.jpg)
+
+Una vez dentro, vemos toda la información que nos proporciona
+
+![Texto alternativo](images/uso4.jpg)
+
+![Texto alternativo](images/uso5.jpg)
+
+![Texto alternativo](images/uso6.jpg)
+
+![Texto alternativo](images/uso7.jpg)
+
+
+Una vez se complete al 100% el escaneo, ya podemos entrar donde sale la barra y vemos toda la información recopilada:
+
+![Texto alternativo](images/uso8.jpg)
+
+Como vemos, nos indica el nivel de criticidad por colores. Podemos entrar una a una en las diferentes vulnerabilidades y ver más información.
+
+![Texto alternativo](images/uso9.jpg)
+
+![Texto alternativo](images/uso10.jpg)
+
+En este caso nos indica que el servidor SMB (servicio que permite a computadoras en una red compartir archivos, impresoras, puertos serie y comunicaciones entre procesos (IPC)) es vulnerable, y puede ser atacado mediante la técnica man-in-the-middle, la cual ya hemos explotado en alguna máquina de laboratorio.
+
+Por último, decir que podemos hacer nuestros propios script personalizados con python e integrarlos con nessus mediante el uso de las API keys que nos proporciona nessus (en el panel de administrador, mi cuenta, API, generar), aquí vemos un ejemplo:
+
+![Texto alternativo](images/uso11.jpg)
+
+
+
+
