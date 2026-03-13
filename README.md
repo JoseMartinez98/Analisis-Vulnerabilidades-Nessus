@@ -195,6 +195,46 @@ Por último, decir que podemos hacer nuestros propios script personalizados con 
 
 ![Texto alternativo](images/uso11.jpg)
 
+*****
+
+## 4. 📊 Gestión de Hallazgos: Metodología de Priorización
+
+Un error común del analista junior es tratar todas las vulnerabilidades por igual. En este "Arsenal", aplicamos una metodología de triaje basada en el riesgo real, combinando estándares abiertos con inteligencia de amenazas activa.
+
+### 1. El Estándar CVSS (Common Vulnerability Scoring System)
+
+Utilizamos el CVSS v3.1 para medir la severidad teórica de una vulnerabilidad. Este sistema analiza tres grupos de métricas:
+
+**Base**: Características intrínsecas del fallo (¿Es remoto? ¿Requiere privilegios?).
+
+**Temporal**: Estado actual de la vulnerabilidad (¿Existe un exploit público?).
+
+**Environmental**: El impacto específico en nuestra infraestructura.
+
+**Nota técnica**: Un CVSS de 9.8 (Critical) indica que el fallo es explotable de forma remota y sin interacción del usuario, lo que lo convierte en una prioridad inmediata.
+
+### 2. El Factor VPR (Vulnerability Priority Rating)
+
+A diferencia del CVSS, que es estático, el VPR es una métrica dinámica exclusiva de Nessus (Tenable) que utiliza Ciencia de Datos para predecir qué vulnerabilidades tienen más probabilidades de ser explotadas en los próximos 28 días.
+
+**Por qué lo usamos**: El CVSS puede decir que un fallo es "Alto", pero si no hay nadie usándolo en el mundo real, su riesgo práctico es menor. El VPR analiza el panorama de amenazas (Twitter, Dark Web, foros de hackers) para elevar la prioridad de lo que realmente es peligroso hoy.
+
+### 3. Matriz de Decisión para la Remediación
+
+Para estandarizar la respuesta del equipo de seguridad, seguimos esta matriz de prioridad:
+
+| **Prioridad** | **Combinación de métricas** | **Acción inmediata** |
+|---------------|-----------------------------|----------------------|
+| Ugente (P0) | VSS > 9.0 + VPR Crítico | Parcheo en menos de 24-48 horas |
+| Alta (P1) | CVSS > 7.0 + Exploit disponible | Parcheo en el próximo ciclo de mantenimiento |
+| Media (P2) | CVSS 4.0 - 6.0 | Monitorización y mitigación mediante controles compensatorios (Firewalls/WAF) |
+| Baja (P3) | CVSS < 4.0 o Informacional | Registro en el backlog de endurecimiento (Hardening) |
+
+*****
+
+## 5. Políticas Personalizadas
+
+No debemos quedarnos en la superficie de las políticas por defecto, debemos adaptarlas al tipo de escaneo que buscamos según nuestro objetivo, en este caso supongamos que tenemos como objetivo concreto windows. En el apartado de policies 
 
 
 
