@@ -154,7 +154,7 @@ En Nessus, en lugar de flags de consola, dominamos los Tipos de Escaneo:
 
 *****
 
-## 3. Caso de uso
+## 4. Caso de uso
 
 Al entrar al panel de control, vemos como hay un botón de new scan, pulsamos ahí y metemos la dirección ip a escanear, en mi caso localhost.
 
@@ -197,7 +197,7 @@ Por último, decir que podemos hacer nuestros propios script personalizados con 
 
 *****
 
-## 4. 📊 Gestión de Hallazgos: Metodología de Priorización
+## 5. 📊 Gestión de Hallazgos: Metodología de Priorización
 
 Un error común del analista junior es tratar todas las vulnerabilidades por igual. En este "Arsenal", aplicamos una metodología de triaje basada en el riesgo real, combinando estándares abiertos con inteligencia de amenazas activa.
 
@@ -232,7 +232,7 @@ Para estandarizar la respuesta del equipo de seguridad, seguimos esta matriz de 
 
 *****
 
-## 5. Políticas Personalizadas - profundizamos un poco.
+## 6. Políticas Personalizadas - profundizamos un poco.
 
 Cabe destacar que no debemos quedarnos en la superficie de las políticas por defecto, debemos adaptarlas al tipo de escaneo que buscamos según nuestro objetivo, en este caso supongamos que tenemos como objetivo concreto windows. En el apartado de policies podemos establecer nuevas políticas a nuestro gusto.
 
