@@ -236,5 +236,10 @@ Para estandarizar la respuesta del equipo de seguridad, seguimos esta matriz de 
 
 No debemos quedarnos en la superficie de las políticas por defecto, debemos adaptarlas al tipo de escaneo que buscamos según nuestro objetivo, en este caso supongamos que tenemos como objetivo concreto windows. En el apartado de policies 
 
+![Texto alternativo](images/politicas1.jpg)
+
+podemos establecer nuevas políticas a nuestro gusto
+
+
 
 
