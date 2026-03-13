@@ -232,9 +232,9 @@ Para estandarizar la respuesta del equipo de seguridad, seguimos esta matriz de 
 
 *****
 
-## 5. Políticas Personalizadas
+## 5. Políticas Personalizadas - profundizamos un poco.
 
-No debemos quedarnos en la superficie de las políticas por defecto, debemos adaptarlas al tipo de escaneo que buscamos según nuestro objetivo, en este caso supongamos que tenemos como objetivo concreto windows. En el apartado de policies podemos establecer nuevas políticas a nuestro gusto.
+Cabe destacar que no debemos quedarnos en la superficie de las políticas por defecto, debemos adaptarlas al tipo de escaneo que buscamos según nuestro objetivo, en este caso supongamos que tenemos como objetivo concreto windows. En el apartado de policies podemos establecer nuevas políticas a nuestro gusto.
 
 ![Texto alternativo](images/politicas1.jpg)
 
